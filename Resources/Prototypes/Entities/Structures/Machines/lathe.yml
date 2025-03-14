@@ -533,6 +533,10 @@
     # Floofstation section
     - CollarsFloofstation
     # Floofstation section end
+    - NFFloorTilesCarpet # Frontier
+    - NFWallets # Frontier
+    dynamicPacks: # Frontier
+    - NFPouches # Frontier
   - type: EmagLatheRecipes
     emagStaticPacks:
     - ClothingCentComm

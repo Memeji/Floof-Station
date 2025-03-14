@@ -31,6 +31,7 @@ public enum SlotFlags
     UNDERGARMENT_TOP = 1 << 21,
     UNDERGARMENT_SOCKS = 1 << 22,
     // Floof section end
+    WALLET = 1 << 23, // Frontier: using an unused slot, redefine to a new bit if/when it's used (goodbye ushort)
     All = ~NONE,
 
     WITHOUT_POCKET = All & ~POCKET
