@@ -34,6 +34,9 @@
       - NFCoin
       - NFShipyardVoucher
       - Card # single cards
+      - NFEmagPass
+      tags:
+      - FitsWallet
     blacklist:
       tags:
       - Book
@@ -51,6 +54,9 @@
           - Paper
           - NFShipyardVoucher
           - Card
+          - NFEmagPass
+          tags:
+          - WalletPaper
       closed-cash:
         whitelist:
           components:
