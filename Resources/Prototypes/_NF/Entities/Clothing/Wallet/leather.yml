@@ -24,7 +24,6 @@
   - type: Item
     sprite: _NF/Clothing/Wallet/leather.rsi
   - type: Butcherable
-    butcheringType: Knife
     spawned:
     - id: MaterialCloth1
       amount: 1
@@ -188,7 +187,7 @@
     - 0,0,1,1
 
 - type: entity
-  parent: [ClothingWalletLeatherBrown, BaseC3ContrabandNoValue, ContrabandClothing]
+  parent: ClothingWalletLeatherBrown
   id: ClothingWalletLeatherArcadia
   name: arcadian wallet
   description: Surprisingly thick and unsurpisingly extremely stylish. Careful not to lose it, and don't sit on it.

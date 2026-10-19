@@ -1,7 +1,7 @@
 # TODO: alphabetize all this per section
 #region Upstream Removed
-- type: Tag
-  id: JanicartKeys
+#- type: Tag
+#  id: JanicartKeys # Tag exists in Prototypes\tags.yml
 
 - type: Tag
   id: VehicleKey
@@ -108,8 +108,8 @@
 - type: Tag
   id: WhoopieCushion
 
-- type: Tag
-  id: PrizeTicket
+# - type: Tag
+#   id: PrizeTicket # Floof already has the PrizeTicket tag
 
 - type: Tag
   id: FitsWallet
@@ -132,8 +132,8 @@
 - type: Tag
   id: DroneUsable
 
-- type: Tag
-  id: LightReplacer
+# - type: Tag
+#   id: LightReplacer # Tag exists in Prototypes\tags.yml
 
 - type: Tag
   id: HoverbikeKeys

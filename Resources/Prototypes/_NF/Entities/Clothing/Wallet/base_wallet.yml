@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseStorageItem, Clothing, RecyclableItemClothBasic]
+  parent: [BaseStorageItem, Clothing]
   id: NFBaseWallet
   abstract: true
   name: wallet
@@ -33,8 +33,8 @@
       - Paper
       - NFCoin
       - NFShipyardVoucher
-      - Card # single cards
-      - NFEmagPass
+     # - Card # single cards
+     # - NFEmagPass
       tags:
       - FitsWallet
     blacklist:
@@ -53,8 +53,8 @@
           components:
           - Paper
           - NFShipyardVoucher
-          - Card
-          - NFEmagPass
+         # - Card
+         # - NFEmagPass
           tags:
           - WalletPaper
       closed-cash:
